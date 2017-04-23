@@ -257,6 +257,7 @@ export default class ImageViewer extends React.Component<typings.PropsDefine, ty
      * 到上一张
      */
     goBack() {
+        console.log(111)
         if (this.state.currentShowIndex === 0) {
             // 回到之前的位置
             this.resetPosition.call(this)
